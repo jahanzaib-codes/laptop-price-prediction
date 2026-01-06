@@ -1,15 +1,3 @@
-"""
-Laptop Price Prediction Web Application
-Created by: Jahanzaib
-A Flask-based web application for predicting laptop prices using ML and Gemini AI
-
-Features:
-- Manual specification-based price prediction
-- AI-powered image-based prediction using Google Gemini
-- RESTful API endpoints
-- Modern animated web interface
-"""
-
 from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
 import pandas as pd

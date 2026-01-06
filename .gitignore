@@ -130,3 +130,10 @@ uploads/
 # Log files
 *.log
 logs/
+
+# Files to keep local only (not for GitHub)
+streamlit_app.py
+deploy.md
+test_api.py
+readmeurdu.md
+.env.example
