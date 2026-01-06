@@ -1,0 +1,26 @@
+# Laptop Price Prediction - Required Dependencies
+# Install using: pip install -r requirements.txt
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Machine Learning
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+
+# Gemini AI Integration
+google-generativeai==0.3.2
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Image Processing
+Pillow==10.1.0
+
+# Utilities
+requests==2.31.0

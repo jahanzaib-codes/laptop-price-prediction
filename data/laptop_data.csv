@@ -1,0 +1,51 @@
+Company,TypeName,Ram,Weight,Touchscreen,Ips,ppi,Cpu_brand,HDD,SSD,Gpu_brand,os,Price
+Dell,Ultrabook,8,1.37,0,1,226.98,Intel Core i5,0,256,Intel,Windows,60000
+HP,Notebook,4,2.1,0,0,141.21,Intel Core i3,500,0,Intel,Windows,35000
+Lenovo,Ultrabook,16,1.83,1,1,276.05,Intel Core i7,0,512,Nvidia,Windows,95000
+Apple,Ultrabook,8,1.37,0,1,226.98,Intel Core i5,0,256,Intel,Mac,85000
+Asus,Gaming,16,2.3,0,0,141.21,Intel Core i7,1000,256,Nvidia,Windows,125000
+Acer,Notebook,4,2.2,0,0,100.45,AMD Ryzen 3,500,0,AMD,Windows,32000
+MSI,Gaming,32,2.9,0,0,141.21,Intel Core i9,0,1024,Nvidia,Windows,185000
+Dell,2 in 1 Convertible,8,1.6,1,1,166.77,Intel Core i5,0,256,Intel,Windows,72000
+HP,Gaming,16,2.5,0,0,141.21,Intel Core i7,0,512,Nvidia,Windows,110000
+Lenovo,Notebook,8,1.85,0,1,141.21,Intel Core i5,256,256,Intel,Windows,55000
+Apple,Ultrabook,16,1.83,0,1,226.98,Intel Core i7,0,512,Intel,Mac,145000
+Asus,Ultrabook,8,1.4,0,1,226.98,Intel Core i5,0,256,Intel,Windows,65000
+Acer,Gaming,16,2.4,0,0,141.21,Intel Core i7,0,512,Nvidia,Windows,98000
+Dell,Notebook,4,2.3,0,0,100.45,Intel Core i3,500,0,Intel,Windows,28000
+HP,Ultrabook,8,1.65,1,1,166.77,Intel Core i5,0,256,Intel,Windows,58000
+Lenovo,Gaming,16,2.7,0,0,141.21,Intel Core i7,1000,512,Nvidia,Windows,135000
+Apple,Ultrabook,32,1.95,0,1,226.98,Intel Core i9,0,1024,Intel,Mac,225000
+Asus,Notebook,4,1.9,0,0,100.45,AMD Ryzen 3,500,0,AMD,Windows,30000
+MSI,Gaming,64,3.1,0,0,187.32,Intel Core i9,0,2048,Nvidia,Windows,275000
+Dell,Ultrabook,16,1.45,1,1,276.05,Intel Core i7,0,512,Intel,Windows,120000
+HP,Notebook,8,2.0,0,0,141.21,Intel Core i5,500,128,Intel,Windows,48000
+Lenovo,2 in 1 Convertible,16,1.7,1,1,276.05,Intel Core i7,0,512,Intel,Windows,98000
+Acer,Ultrabook,8,1.5,0,1,166.77,Intel Core i5,0,256,Intel,Windows,52000
+Asus,Gaming,32,2.6,0,0,187.32,Intel Core i9,0,1024,Nvidia,Windows,165000
+Dell,Gaming,16,2.4,0,0,141.21,Intel Core i7,0,512,Nvidia,Windows,115000
+HP,Ultrabook,16,1.55,1,1,226.98,Intel Core i7,0,512,Intel,Windows,92000
+Lenovo,Notebook,4,2.15,0,0,100.45,AMD Ryzen 3,500,0,AMD,Windows,25000
+Apple,Ultrabook,8,1.29,0,1,226.98,Apple M1,0,256,Apple,Mac,95000
+Asus,Ultrabook,16,1.55,1,1,226.98,Intel Core i7,0,512,Intel,Windows,88000
+Acer,Notebook,8,2.1,0,0,141.21,Intel Core i5,500,128,Intel,Windows,42000
+MSI,Gaming,32,2.85,0,0,187.32,Intel Core i9,0,1024,Nvidia,Windows,195000
+Dell,Notebook,8,2.05,0,0,141.21,Intel Core i5,500,0,Intel,Windows,45000
+HP,Gaming,32,2.75,0,0,187.32,Intel Core i9,0,1024,Nvidia,Windows,175000
+Lenovo,Ultrabook,8,1.45,0,1,166.77,Intel Core i5,0,256,Intel,Windows,58000
+Apple,Ultrabook,16,1.4,0,1,276.05,Apple M1 Pro,0,512,Apple,Mac,175000
+Asus,2 in 1 Convertible,8,1.6,1,1,166.77,Intel Core i5,0,256,Intel,Windows,68000
+Acer,Gaming,32,2.7,0,0,187.32,Intel Core i9,0,1024,Nvidia,Windows,155000
+Dell,2 in 1 Convertible,16,1.65,1,1,226.98,Intel Core i7,0,512,Intel,Windows,105000
+HP,Notebook,4,2.25,0,0,100.45,AMD Ryzen 3,500,0,AMD,Windows,28000
+Lenovo,Gaming,32,2.8,0,0,187.32,Intel Core i9,0,1024,Nvidia,Windows,168000
+Apple,Ultrabook,32,1.6,0,1,276.05,Apple M1 Max,0,1024,Apple,Mac,285000
+Asus,Notebook,8,1.95,0,0,141.21,Intel Core i5,256,256,Intel,Windows,52000
+MSI,Gaming,16,2.45,0,0,141.21,Intel Core i7,0,512,Nvidia,Windows,128000
+Dell,Ultrabook,8,1.35,0,1,226.98,Intel Core i5,0,256,Intel,Windows,62000
+HP,2 in 1 Convertible,8,1.55,1,1,166.77,Intel Core i5,0,256,Intel,Windows,65000
+Lenovo,Ultrabook,16,1.5,1,1,276.05,Intel Core i7,0,512,Intel,Windows,95000
+Acer,Notebook,4,2.3,0,0,100.45,Intel Core i3,500,0,Intel,Windows,26000
+Asus,Gaming,16,2.55,0,0,141.21,Intel Core i7,0,512,Nvidia,Windows,118000
+Dell,Notebook,4,2.2,0,0,100.45,Intel Core i3,500,0,Intel,Windows,30000
+HP,Ultrabook,8,1.45,0,1,166.77,Intel Core i5,0,256,Intel,Windows,55000

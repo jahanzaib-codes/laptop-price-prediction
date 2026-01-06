@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laptop Price Prediction using Machine Learning and AI - Created by Jahanzaib">
+    <meta name="keywords" content="laptop price, prediction, machine learning, AI, data science">
+    <meta name="author" content="Jahanzaib">
+    <title>Laptop Price Predictor | By Jahanzaib</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header Banner -->
+    <header class="header-banner">
+        <div class="banner-content">
+            <div class="marquee-container">
+                <div class="marquee-text">
+                    <span class="highlight-text">✨ This Project Was Created By Jahanzaib ✨</span>
+                    <span class="separator">|</span>
+                    <span>🎓 Data Science Project</span>
+                    <span class="separator">|</span>
+                    <span>🤖 Powered by Machine Learning & Gemini AI</span>
+                    <span class="separator">|</span>
+                    <span class="highlight-text">✨ This Project Was Created By Jahanzaib ✨</span>
+                    <span class="separator">|</span>
+                    <span>🎓 Data Science Project</span>
+                    <span class="separator">|</span>
+                    <span>🤖 Powered by Machine Learning & Gemini AI</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="20" width="80" height="50" rx="5" stroke="currentColor" stroke-width="3" />
+                            <rect x="15" y="25" width="70" height="40" rx="3" fill="currentColor" opacity="0.2" />
+                            <rect x="30" y="70" width="40" height="5" rx="2" fill="currentColor" />
+                            <rect x="20" y="75" width="60" height="8" rx="3" stroke="currentColor" stroke-width="2" />
+                            <circle cx="50" cy="85" r="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Laptop Price</span>
+                    <span class="white-text">Predictor</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Predict laptop prices accurately using Machine Learning and AI
+                </p>
+            </div>
+        </section>
+
+        <!-- Navigation Tabs -->
+        <nav class="tab-navigation">
+            <button class="tab-btn active" data-tab="manual">
+                <span class="tab-icon">⚙️</span>
+                <span class="tab-text">Manual Prediction</span>
+            </button>
+            <button class="tab-btn" data-tab="ai">
+                <span class="tab-icon">🤖</span>
+                <span class="tab-text">AI Image Prediction</span>
+            </button>
+            <button class="tab-btn" data-tab="chat">
+                <span class="tab-icon">💬</span>
+                <span class="tab-text">Ask AI</span>
+            </button>
+            <button class="tab-btn help-btn" data-tab="help">
+                <span class="tab-icon">❓</span>
+                <span class="tab-text">Help</span>
+            </button>
+        </nav>
+
+        <!-- Tab Contents -->
+        <div class="tab-contents">
+            <!-- Manual Prediction Tab -->
+            <div class="tab-content active" id="manual-tab">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <h2>📊 Enter Laptop Specifications</h2>
+                        <p>Fill in the details below to predict the price. Fields marked with <span
+                                class="required">*</span> are required.</p>
+                    </div>
+                    <form id="prediction-form" class="prediction-form">
+                        <div class="form-grid">
+                            <!-- Row 1 -->
+                            <div class="form-group">
+                                <label for="company">Brand <span class="required">*</span></label>
+                                <select id="company" name="Company" required>
+                                    <option value="">Select Brand</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="typename">Type <span class="required">*</span></label>
+                                <select id="typename" name="TypeName" required>
+                                    <option value="">Select Type</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpu">Processor <span class="required">*</span></label>
+                                <select id="cpu" name="Cpu_brand" required>
+                                    <option value="">Select CPU</option>
+                                </select>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="form-group">
+                                <label for="gpu">Graphics Card <span class="required">*</span></label>
+                                <select id="gpu" name="Gpu_brand" required>
+                                    <option value="">Select GPU</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="os">Operating System <span class="required">*</span></label>
+                                <select id="os" name="os" required>
+                                    <option value="">Select OS</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="ram">RAM (GB) <span class="required">*</span></label>
+                                <select id="ram" name="Ram" required>
+                                    <option value="">Select RAM</option>
+                                </select>
+                            </div>
+
+                            <!-- Row 3 -->
+                            <div class="form-group">
+                                <label for="ssd">SSD (GB) <span class="optional">(Optional)</span></label>
+                                <select id="ssd" name="SSD">
+                                    <option value="0">No SSD</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="hdd">HDD (GB) <span class="optional">(Optional)</span></label>
+                                <select id="hdd" name="HDD">
+                                    <option value="0">No HDD</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="weight">Weight (kg) <span class="optional">(Optional)</span></label>
+                                <input type="number" id="weight" name="Weight" step="0.1" min="0.5" max="5"
+                                    placeholder="e.g., 1.5" value="1.8">
+                            </div>
+
+                            <!-- Row 4 -->
+                            <div class="form-group">
+                                <label for="ppi">Screen PPI <span class="optional">(Optional)</span></label>
+                                <input type="number" id="ppi" name="ppi" step="0.01" min="50" max="400"
+                                    placeholder="e.g., 141.21" value="141.21">
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="touchscreen" name="Touchscreen">
+                                    <span class="checkmark"></span>
+                                    <span>Touchscreen</span>
+                                </label>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="ips" name="Ips" checked>
+                                    <span class="checkmark"></span>
+                                    <span>IPS Display</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="predict-btn">
+                            <span class="btn-text">🔮 Predict Price</span>
+                            <span class="btn-loader"></span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Result Card -->
+                <div class="glass-card result-card hidden" id="result-card">
+                    <div class="result-header">
+                        <h2>💰 Predicted Price</h2>
+                    </div>
+                    <div class="price-display">
+                        <span class="currency">Rs.</span>
+                        <span class="price-value" id="price-value">0</span>
+                    </div>
+                    <div class="insights-section" id="insights-section">
+                        <h3>📝 Insights</h3>
+                        <ul class="insights-list" id="insights-list"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Image Prediction Tab -->
+            <div class="tab-content" id="ai-tab">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <h2>📸 AI Image Prediction</h2>
+                        <p>Upload a photo of any laptop and our Gemini AI will analyze it to predict its specifications
+                            and price!</p>
+                    </div>
+
+                    <div class="upload-section">
+                        <div class="upload-area" id="upload-area">
+                            <input type="file" id="image-input" accept="image/*" hidden>
+                            <div class="upload-icon">📷</div>
+                            <h3>Drag & Drop Image Here</h3>
+                            <p>or click to browse</p>
+                            <span class="file-types">Supports: JPG, PNG, WEBP</span>
+                        </div>
+                        <div class="image-preview hidden" id="image-preview">
+                            <img id="preview-img" src="" alt="Laptop Preview">
+                            <button class="remove-btn" id="remove-image">✕</button>
+                        </div>
+                    </div>
+
+                    <button class="predict-btn ai-predict-btn" id="ai-predict-btn" disabled>
+                        <span class="btn-text">🤖 Analyze with AI</span>
+                        <span class="btn-loader"></span>
+                    </button>
+                </div>
+
+                <!-- AI Result Card -->
+                <div class="glass-card ai-result-card hidden" id="ai-result-card">
+                    <div class="result-header">
+                        <h2>🔍 AI Analysis Results</h2>
+                    </div>
+                    <div class="ai-result-content" id="ai-result-content">
+                        <!-- Results will be populated here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ask AI Tab -->
+            <div class="tab-content" id="chat-tab">
+                <div class="glass-card chat-card">
+                    <div class="card-header">
+                        <h2>💬 Ask Gemini AI</h2>
+                        <p>Have questions about laptops? Ask our AI assistant powered by Google Gemini!</p>
+                    </div>
+
+                    <div class="chat-container">
+                        <div class="chat-messages" id="chat-messages">
+                            <div class="chat-message bot-message">
+                                <div class="message-avatar">🤖</div>
+                                <div class="message-content">
+                                    <p>Hello! I'm your laptop buying assistant. Ask me anything about laptops!</p>
+                                    <p>Examples:</p>
+                                    <ul>
+                                        <li>"Best laptop for programming under 80,000 PKR?"</li>
+                                        <li>"Dell vs HP which is better?"</li>
+                                        <li>"How much RAM do I need for video editing?"</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="chat-input-form" id="chat-form">
+                            <input type="text" id="chat-input" placeholder="Type your question here..."
+                                autocomplete="off">
+                            <button type="submit" class="send-btn">
+                                <span>Send</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Tab -->
+            <div class="tab-content" id="help-tab">
+                <div class="glass-card help-card">
+                    <div class="card-header">
+                        <h2>❓ How to Find Laptop Specifications</h2>
+                        <p>Learn how to find your laptop's specifications for accurate price prediction!</p>
+                    </div>
+
+                    <div class="help-content" id="help-content">
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                            <p>Loading help content...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card specs-explanation-card">
+                    <div class="card-header">
+                        <h2>📚 Specification Guide</h2>
+                        <p>Understand what each specification means</p>
+                    </div>
+                    <div class="specs-grid" id="specs-grid">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                <span class="gradient-text">Laptop Price Predictor</span>
+                | Created with ❤️ by <strong>Jahanzaib</strong>
+                | Data Science Project - January 2026
+            </p>
+            <p class="footer-links">
+                <a href="https://github.com/jahanzaib-codes" target="_blank">GitHub</a>
+                <span>•</span>
+                <span>Powered by Machine Learning & Gemini AI</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>
