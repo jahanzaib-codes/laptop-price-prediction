@@ -132,8 +132,8 @@ uploads/
 logs/
 
 # Files to keep local only (not for GitHub)
-streamlit_app.py
 deploy.md
 test_api.py
-readmeurdu.md
-.env.example
+
+# IMPORTANT: .env is already ignored above - API keys are safe!
+# For Streamlit Cloud, use Secrets Management instead
